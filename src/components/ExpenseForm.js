@@ -83,6 +83,7 @@ export default class ExpenseForm extends Component {
                         onFocusChange={this.onFocusChange}
                         numberOfMonths={1}
                         isOutsideRange={day => false}
+                        id='singleDatePicker'
                     />
                     <textarea
                         placeholder="Add a note for your expense (optional)"
